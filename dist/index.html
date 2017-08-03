@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Addon-XML Image Maker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+      body{
+        margin-top: 60px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Addon-XML Image Maker</a>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+gru
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <label for="exampleSelect1">Background</label>
+            <select class="form-control" id="bgcolor">
+              <option selected value="0,153,0">Questetra</option>
+              <option value="0,126,229">Dropbox</option>
+              <option value="245,125,1">Google Analytics</option>
+              <option value="120,212,182">Slack</option>
+              <option value="0,112,186">Paypal</option>
+              <option value="62,138,198">Stripe</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <label for="exampleSelect1">main</label>
+            <select class="form-control icon-selector" id="main-icon">
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <label for="exampleSelect1">sub</label>
+            <select class="form-control icon-selector" id="sub-icon">
+              <option selected value="none">(なし)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" id="title">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <label for="sub-title">Sub Title</label>
+            <input type="text" class="form-control" id="sub-title">
+          </div>
+        </div>
+      </div>
+
+      <canvas id="canvas-1200x630" width="1200" height="630"></canvas>
+      <canvas id="canvas-600x315" width="600" height="315"></canvas>
+      <canvas id="canvas-220x220" width="220" height="220"></canvas>
+      <canvas id="canvas-32x32" width="32" height="32"></canvas>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/main-min.js"></script>
+  </body>
+</html>

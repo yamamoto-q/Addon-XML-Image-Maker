@@ -1,0 +1,249 @@
+@font-face {
+  font-family: 'Questetra-Icon-Font-A';
+  src:
+    url('fonts/Questetra-Icon-Font-A.ttf?x2nte1') format('truetype'),
+    url('fonts/Questetra-Icon-Font-A.woff?x2nte1') format('woff'),
+    url('fonts/Questetra-Icon-Font-A.svg?x2nte1#Questetra-Icon-Font-A') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Questetra-Icon-Font-A' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.qia-info:before {
+  content: "\e900";
+  color: #4b4b4b;
+}
+.qia-fx:before {
+  content: "\e901";
+  color: #4b4b4b;
+}
+.qia-cal:before {
+  content: "\e902";
+  color: #4b4b4b;
+}
+.qia-doc:before {
+  content: "\e903";
+  color: #4b4b4b;
+}
+.qia-chat:before {
+  content: "\e904";
+  color: #4b4b4b;
+}
+.qia-plug:before {
+  content: "\e905";
+  color: #4b4b4b;
+}
+.qia-mail:before {
+  content: "\e906";
+  color: #4b4b4b;
+}
+.qia-filter:before {
+  content: "\e907";
+  color: #4b4b4b;
+}
+.qia-axe:before {
+  content: "\e908";
+  color: #4b4b4b;
+}
+.qia-up:before {
+  content: "\e909";
+  color: #4b4b4b;
+}
+.qia-calc:before {
+  content: "\e90a";
+  color: #4b4b4b;
+}
+.qia-trash:before {
+  content: "\e90b";
+  color: #4b4b4b;
+}
+.qia-strage:before {
+  content: "\e90c";
+  color: #4b4b4b;
+}
+.qia-amazon:before {
+  content: "\e90d";
+  color: #f90;
+}
+.qia-amex:before {
+  content: "\e90e";
+  color: #2e77bc;
+}
+.qia-android:before {
+  content: "\e90f";
+  color: #a4c639;
+}
+.qia-apple:before {
+  content: "\e910";
+  color: #999;
+}
+.qia-bitbucket:before {
+  content: "\e913";
+  color: #205081;
+}
+.qia-bitly:before {
+  content: "\e915";
+  color: #ee6123;
+}
+.qia-blogger:before {
+  content: "\e916";
+  color: #f38936;
+}
+.qia-buffer:before {
+  content: "\e918";
+}
+.qia-digg:before {
+  content: "\e91b";
+}
+.qia-docker:before {
+  content: "\e91c";
+  color: #1488c6;
+}
+.qia-dropbox2:before {
+  content: "\e91d";
+  color: #007ee5;
+}
+.qia-ebay:before {
+  content: "\e91f";
+  color: #e53238;
+}
+.qia-evernote:before {
+  content: "\e920";
+  color: #2dbe60;
+}
+.qia-facebook:before {
+  content: "\e921";
+  color: #3b5998;
+}
+.qia-feedly:before {
+  content: "\e922";
+  color: #6cc655;
+}
+.qia-foursquare:before {
+  content: "\e924";
+  color: #f94877;
+}
+.qia-git:before {
+  content: "\e925";
+  color: #f14e32;
+}
+.qia-github:before {
+  content: "\e926";
+}
+.qia-google:before {
+  content: "\e928";
+  color: #4285f4;
+}
+.qia-google-analy:before {
+  content: "\e929";
+  color: #ffc107;
+}
+.qia-google-doc:before {
+  content: "\e92a";
+  color: #4386fc;
+}
+.qia-hangout:before {
+  content: "\e92b";
+  color: #0c9d58;
+}
+.qia-google-plus:before {
+  content: "\e92d";
+  color: #dc4e41;
+}
+.qia-hatebu:before {
+  content: "\e92e";
+  color: #00a4de;
+}
+.qia-hulu:before {
+  content: "\e930";
+  color: #6a3;
+}
+.qia-insta:before {
+  content: "\e931";
+  color: #e4405f;
+}
+.qia-jenkins:before {
+  content: "\e932";
+  color: #d24939;
+}
+.qia-line:before {
+  content: "\e933";
+  color: #00c300;
+}
+.qia-paypal2:before {
+  content: "\e93e";
+  color: #00457c;
+}
+.qia-pintarest:before {
+  content: "\e93f";
+  color: #bd081c;
+}
+.qia-slack2:before {
+  content: "\e946";
+  color: #56b68b;
+}
+.qia-spotify:before {
+  content: "\e949";
+  color: #1ed760;
+}
+.qia-ted:before {
+  content: "\e94a";
+  color: #e62b1e;
+}
+.qia-brand70:before {
+  content: "\e94e";
+  color: #f22f46;
+}
+.qia-twitter:before {
+  content: "\e950";
+  color: #1da1f2;
+}
+.qia-uber:before {
+  content: "\e951";
+}
+.qia-viemo:before {
+  content: "\e952";
+  color: #1ab7ea;
+}
+.qia-visa:before {
+  content: "\e953";
+  color: #142787;
+}
+.qia-wp:before {
+  content: "\e956";
+  color: #21759b;
+}
+.qia-youtube:before {
+  content: "\e95b";
+  color: #cd201f;
+}
+.qia-slack:before {
+  content: "\e95c";
+  color: #56b68b;
+}
+.qia-dropbox:before {
+  content: "\e95e";
+}
+.qia-paypal:before {
+  content: "\e960";
+}
+.qia-stripe:before {
+  content: "\e966";
+}
+.qia-credit-card:before {
+  content: "\e967";
+}
