@@ -1,4 +1,4 @@
-#アイコンについて
+# アイコンについて
 
 * IcoMoon で編集/管理 https://icomoon.io
 * プロジェクトファイルは... src/font/Addon.json
