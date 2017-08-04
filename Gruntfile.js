@@ -12,7 +12,9 @@ module.exports = function(grunt) {
             fonts: {
                 files: [
                     { expand: true, cwd: 'src/font/Questetra-Icon-Font-A/fonts/', src: ['*.*'], dest: 'dist/fonts/', filter: 'isFile' },
-                    { expand: true, cwd: 'src/font/Questetra-Icon-Font-A/', src: ['style.css'], dest: 'dist/', filter: 'isFile' }
+                    { expand: true, cwd: 'src/font/Noto/', src: ['*.*'], dest: 'dist/fonts/', filter: 'isFile' },
+                    { expand: true, cwd: 'src/font/Questetra-Icon-Font-A/', src: ['style.css'], dest: 'dist/', filter: 'isFile' },
+                    { expand: true, cwd: 'src/font/Noto/', src: ['*.css'], dest: 'dist/', filter: 'isFile' }
                 ]
             }
         }

@@ -433,13 +433,12 @@
     }
 
     function drawTitle(){
-    	var f = 'arial, helvetica, clean, sans-serif';
     	for (var i = canvases.length - 1; i >= 0; i--) {
     		if(canvases[i].type && canvases[i].type == "icon"){
     		}else{
 	    		var ctx = canvases[i].ctx;
 	    		if(title && title.length != 0){
-	    			ctx.font = 'bold ' + canvases[i].title.size + "px '" + f  + "'";
+	    			ctx.font = '' + canvases[i].title.size + "px 'noto-b'";
 	    			ctx.fillStyle = 'rgb(256, 256, 256)';
 	    			ctx.textAlign = "center";
 	    			var fontPos = calcTitlePos(i);
@@ -451,13 +450,13 @@
     }
 
     function drawSubTitle(){
-    	var f = 'arial, helvetica, clean, sans-serif';
+    	var f = 'noto';
     	for (var i = canvases.length - 1; i >= 0; i--) {
     		if(canvases[i].type && canvases[i].type == "icon"){
     		}else{
 	    		var ctx = canvases[i].ctx;
 	    		if(subTitle && subTitle.length != 0){
-	    			ctx.font = canvases[i].subTitle.size + "px '" + f  + "'";
+	    			ctx.font = canvases[i].subTitle.size + "px 'noto'";
 	    			ctx.fillStyle = 'rgb(256, 256, 256)';
 	    			ctx.textAlign = "center";
 
