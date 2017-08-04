@@ -382,6 +382,17 @@
 				ctx.font = fontSize + "px '" + iconFont  + "'";
 				ctx.fillText(mainIcon, fontPos.x * 0.90, fontPos.y);
 
+				var canvas = document.getElementById('canvas-32x32');
+				var img = canvas.toDataURL("image/png");
+				var base64 = img.replace('data:image/png;base64,', '');
+
+				console.log(base64);
+				$("#base64").val(base64);
+				/*
+                var dlImg = img.replace(/^data:image\/png/, "data:application/octet-stream");
+				*/
+
+
     		}else{
     			var fontPos = calcMainIcon(i);
     			ctx.font = fontPos.size + "px '" + iconFont  + "'";

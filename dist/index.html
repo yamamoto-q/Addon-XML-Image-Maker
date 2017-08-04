@@ -37,7 +37,7 @@
           <div class="form-group">
             <label for="exampleSelect1">背景色のテーマ</label>
             <select class="form-control" id="bgcolor">
-              <option selected value="0,153,0">Questetra</option>
+              <option selected value="0,153,0">Questetra 標準</option>
               <option value="0,97,213">サービス：box</option>
               <option value="0,126,229">サービス：Dropbox</option>
               <option value="245,125,1">サービス：Google Analytics</option>
@@ -56,8 +56,6 @@
             </select>
           </div>
         </div>
-      </div>
-      <div class="row">
         <div class="col">
           <div class="form-group">
             <label for="exampleSelect1">主アイコン</label>
@@ -105,9 +103,18 @@
           <canvas id="canvas-220x220" width="220" height="220"></canvas>
         </div>
         <div class="col">
-          <h4>32x32</h4>
+          <h4>32x32 (task-icon)</h4>
           <canvas id="canvas-32x32" width="32" height="32"></canvas>
         </div> 
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h4>32x32 Base64</h4>
+          <div class="form-group">
+            <textarea id="base64" class="form-control" readonly></textarea>
+          </div>
+        </div>
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
