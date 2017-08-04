@@ -33,14 +33,14 @@
       <div class="row">
         <div class="col">
           <div class="form-group">
-            <label for="exampleSelect1">Background</label>
+            <label for="exampleSelect1">背景色のテーマ</label>
             <select class="form-control" id="bgcolor">
               <option selected value="0,153,0">Questetra</option>
-              <option value="0,126,229">Dropbox</option>
-              <option value="245,125,1">Google Analytics</option>
-              <option value="120,212,182">Slack</option>
-              <option value="0,112,186">Paypal</option>
-              <option value="62,138,198">Stripe</option>
+              <option value="0,126,229">サービス：Dropbox</option>
+              <option value="245,125,1">サービス：Google Analytics</option>
+              <option value="120,212,182">サービス：Slack</option>
+              <option value="0,112,186">サービス：Paypal</option>
+              <option value="62,138,198">サービス：Stripe</option>
             </select>
           </div>
         </div>
@@ -48,14 +48,14 @@
       <div class="row">
         <div class="col">
           <div class="form-group">
-            <label for="exampleSelect1">main</label>
+            <label for="exampleSelect1">主アイコン</label>
             <select class="form-control icon-selector" id="main-icon">
             </select>
           </div>
         </div>
         <div class="col">
           <div class="form-group">
-            <label for="exampleSelect1">sub</label>
+            <label for="exampleSelect1">サブアイコン：主アイコンがサービスの時のみ</label>
             <select class="form-control icon-selector" id="sub-icon">
               <option selected value="none">(なし)</option>
             </select>
@@ -65,7 +65,7 @@
       <div class="row">
         <div class="col">
           <div class="form-group">
-            <label for="title">Title</label>
+            <label for="title">タイトル：幅が収まらないときはサブも利用</label>
             <input type="text" class="form-control" id="title">
           </div>
         </div>
@@ -73,16 +73,30 @@
       <div class="row">
         <div class="col">
           <div class="form-group">
-            <label for="sub-title">Sub Title</label>
+            <label for="sub-title">サブタイトル</label>
             <input type="text" class="form-control" id="sub-title">
           </div>
         </div>
       </div>
 
-      <canvas id="canvas-1200x630" width="1200" height="630"></canvas>
-      <canvas id="canvas-600x315" width="600" height="315"></canvas>
-      <canvas id="canvas-220x220" width="220" height="220"></canvas>
-      <canvas id="canvas-32x32" width="32" height="32"></canvas>
+      <div class="row">
+        <div class="col">
+          <h4>1200x630</h4>
+          <canvas id="canvas-1200x630" width="1200" height="630"></canvas>
+        </div>
+        <div class="col">
+          <h4>600x315</h4>
+          <canvas id="canvas-600x315" width="600" height="315"></canvas>
+        </div>
+        <div class="col">
+          <h4>220x220</h4>
+          <canvas id="canvas-220x220" width="220" height="220"></canvas>
+        </div>
+        <div class="col">
+          <h4>32x32</h4>
+          <canvas id="canvas-32x32" width="32" height="32"></canvas>
+        </div> 
+      </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
