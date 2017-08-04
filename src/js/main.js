@@ -6,7 +6,12 @@
     var iconFont = 'Questetra-Icon-Font-A';
     var lineHeight = 1.5;
 
-    
+    // 入力値
+    var mainIcon;
+    var subIcon;
+    var title;
+    var subTitle;
+    var bgdolor = {};
 
     var canvases = [
     	{
@@ -97,21 +102,25 @@
     	}
     ];
 
+    /**
+     * アイコンのOPTION@SELECTを生成
+     **/
     for (var i = 0; i < icons.length; i++) {
     	var icon = icons[i];
-    	console.log(icon);
     	$(".icon-selector").each(function(index, el) {
     		$(this).append('<option value="' + icon.value + '" data-color="' + icon.color + '">' + icon.label + '</option>');
     	});
     }
+    $('#main-icon option:eq(0)').attr("selected",true);
 
+    /**
+     * キャンバスを設定
+     **/
     for (var i = canvases.length - 1; i >= 0; i--) {
     	console.log(canvases[i]);
     	
     	var c = document.getElementById(canvases[i].id);
     	var ctx = c.getContext('2d');
-    	console.log(ctx);
-    	console.log(canvases[i].ctx);
     	
     	canvases[i].ctx = ctx;
 
@@ -121,14 +130,10 @@
 	    });
     }
 
-    var mainIcon;
-    var subIcon;
-    var title;
-    var subTitle;
-    var bgdolor = {};
-
-
-
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    /**
+     * 操作エベント
+     **/
     $('#bgcolor').change(function(event) {
     	onChangeBgColor();
     	redraw();
@@ -155,6 +160,9 @@
     });
 
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    /**
+     * UIから設定値をSETする
+     **/
     function onChangeBgColor(){
     	var selectVal = $('#bgcolor').val().split(',');
     	bgdolor = {
@@ -186,14 +194,10 @@
     }
 
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    function redraw(){
-    	drawBg();
-    	drawMainIcon();
-    	drawSubIcon();
-    	drawTitle();
-    	drawSubTitle();
-    }
-
+    // 計算
+    /**
+     * サブタイトルの文字位置を算出
+     **/
     function calcSubTitlePos(camvasNum){
     	var size = canvases[camvasNum].subTitle.size;
     	var width = canvases[camvasNum].size.width;
@@ -206,6 +210,9 @@
     	return false;
     }
 
+    /**
+     * タイトルの文字位置を算出
+     **/
     function calcTitlePos(camvasNum){
     	var size = canvases[camvasNum].title.size;
     	var width = canvases[camvasNum].size.width;
@@ -220,6 +227,9 @@
     	return fontPos;
     };
 
+    /**
+     * サブアイコンの位置を算出
+     **/
     function calcSubIcon(camvasNum){
     	var width = canvases[camvasNum].size.width;
     	var height = canvases[camvasNum].size.height;
@@ -264,6 +274,9 @@
 
     }
 
+    /**
+     * アイコンの位置を算出
+     **/
     function calcMainIcon(camvasNum){
     	var width = canvases[camvasNum].size.width;
     	var height = canvases[camvasNum].size.height;
@@ -310,6 +323,26 @@
     	}
     }
 
+    /**
+     * Fontのサイズとセンター位置を指定してFont描画位置を計算
+     **/
+    function calcFontXY(size, x, y){
+    	return {
+    		x: Math.round(x - size / 2),
+    		y: Math.round(y + (size * 0.87) / 2)
+    	}
+    }
+
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+    function redraw(){
+    	drawBg();
+    	drawMainIcon();
+    	drawSubIcon();
+    	drawTitle();
+    	drawSubTitle();
+    }
+
     function drawBg(){
     	for (var i = canvases.length - 1; i >= 0; i--) {
     		var ctx = canvases[i].ctx;
@@ -328,15 +361,7 @@
     	}
     }
 
-    /**
-     * Fontのサイズとセンター位置を指定してFont描画位置を計算
-     **/
-    function calcFontXY(size, x, y){
-    	return {
-    		x: Math.round(x - size / 2),
-    		y: Math.round(y + (size * 0.87) / 2)
-    	}
-    }
+
 
     function drawMainIcon(){
     	for (var i = canvases.length - 1; i >= 0; i--) {
@@ -444,13 +469,13 @@
     	}
     }
 
-    /*
-    syncCamvasSize();
-    */
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    // 初期描画
     onChangeBgColor();
     onMainIconChange();
     onTitleChange();
     drawSubTitle();
     redraw();
+
   });
 })(window.jQuery);
