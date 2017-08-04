@@ -6,29 +6,7 @@
     var iconFont = 'Questetra-Icon-Font-A';
     var lineHeight = 1.5;
 
-    var icons = [
-    	{label:"Info", value:"&#59648;", color:""},
-    	{label:"機能", value:"&#xe901;", color:""},
-    	{label:"カレンダー", value:"&#xe902;", color:""},
-    	{label:"ドキュメント", value:"&#xe903;", color:""},
-    	{label:"チャット", value:"&#xe904;", color:""},
-    	{label:"接続", value:"&#xe905;", color:""},
-    	{label:"メッセージ", value:"&#xe906;", color:""},
-    	{label:"フィルター", value:"&#xe907;", color:""},
-    	{label:"加工", value:"&#xe908;", color:""},
-    	{label:"アップロード", value:"&#xe909;", color:""},
-    	{label:"計算", value:"&#xe90a;", color:""},
-    	{label:"削除", value:"&#xe90b;", color:""},
-    	{label:"ストレージ", value:"&#xe90c;", color:""},
-    	{label:"クレジットカード", value:"&#xe967;", color:""},
-    	{label:"Dropbox", value:"&#xe91d;", color:"0,126,229"},
-    	{label:"Google Analytics", value:"&#xe929;", color:"245,125,1"},
-    	{label:"Google Doc", value:"&#xe92a;", color:""},
-    	{label:"Slack", value:"&#xe946;", color:"120,212,182"},
-    	{label:"PayPal", value:"&#xe960;", color:"0,112,186"},
-    	{label:"Stripe", value:"&#xe966;", color:"62,138,198"}
-
-    ];
+    
 
     var canvases = [
     	{
