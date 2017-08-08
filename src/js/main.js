@@ -336,11 +336,19 @@
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
     function redraw(){
-    	drawBg();
-    	drawMainIcon();
-    	drawSubIcon();
-    	drawTitle();
-    	drawSubTitle();
+        clear();
+        drawBg();
+        drawMainIcon();
+        drawSubIcon();
+        drawTitle();
+        drawSubTitle();
+    }
+
+    function clear(){
+        for (var i = canvases.length - 1; i >= 0; i--) {
+            var ctx = canvases[i].ctx;
+            ctx.clearRect(0, 0, canvases[i].size.width, canvases[i].size.height);
+        }
     }
 
     function drawBg(){
