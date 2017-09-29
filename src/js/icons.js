@@ -27,5 +27,6 @@ var icons = [
 	{label:"PayPal", value:"&#xe960;", color:"0,112,186"},
 	{label:"Slack", value:"&#xe946;", color:"120,212,182"},
 	{label:"Stripe", value:"&#xe92c;", color:"62,138,198"},
+	{label:"Twilio", value:"&#xe94e;", color:"242,47,70"},
 	{label:"法人番号 API", value:"&#xe919;", color:"219,5,32"}
 ];
