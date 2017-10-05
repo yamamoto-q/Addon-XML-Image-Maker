@@ -13,6 +13,7 @@ var icons = [
 	{label:"削除", value:"&#xe90b;", color:""},
 	{label:"ストレージ", value:"&#xe90c;", color:""},
 	{label:"クレジットカード", value:"&#xe911;", color:""},
+	{label:"backlog", value:"&#xe939;", color:"66,206,159"},
 	{label:"box", value:"&#xe91a;", color:"0,97,213"},
 	{label:"Dropbox", value:"&#xe91d;", color:"0,126,229"},
 	{label:"Google Analytics", value:"&#xe929;", color:"245,125,1"},
@@ -27,6 +28,7 @@ var icons = [
 	{label:"PayPal", value:"&#xe960;", color:"0,112,186"},
 	{label:"Slack", value:"&#xe946;", color:"120,212,182"},
 	{label:"Stripe", value:"&#xe92c;", color:"62,138,198"},
+	{label:"typetalk", value:"&#xe938;", color:"252,99,71"},
 	{label:"Twilio", value:"&#xe94e;", color:"242,47,70"},
 	{label:"法人番号 API", value:"&#xe919;", color:"219,5,32"}
 ];

@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Questetra-Icon-Font-A';
   src:
-    url('fonts/Questetra-Icon-Font-A.ttf?dc6z95') format('truetype'),
-    url('fonts/Questetra-Icon-Font-A.woff?dc6z95') format('woff'),
-    url('fonts/Questetra-Icon-Font-A.svg?dc6z95#Questetra-Icon-Font-A') format('svg');
+    url('fonts/Questetra-Icon-Font-A.ttf?jdpy6d') format('truetype'),
+    url('fonts/Questetra-Icon-Font-A.woff?jdpy6d') format('woff'),
+    url('fonts/Questetra-Icon-Font-A.svg?jdpy6d#Questetra-Icon-Font-A') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,445 +23,283 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.qia-白抜きのインフォメーションアイコン:before {
+.qia-typetalk:before {
+  content: "\e938";
+}
+.qia-backlog:before {
+  content: "\e939";
+}
+.qia-CardB:before {
+  content: "\e911";
+  color: #4b4b4b;
+}
+.qia-GoogleSheets:before {
+  content: "\e912";
+}
+.qia-Kintone:before {
+  content: "\e914";
+}
+.qia-salesforce:before {
+  content: "\e917";
+}
+.qia-MyNumber:before {
+  content: "\e919";
+}
+.qia-boxB:before {
+  content: "\e91a";
+}
+.qia-boxA:before {
+  content: "\e91e";
+}
+.qia-GoogleCloudPrint:before {
+  content: "\e923";
+}
+.qia-StripeC:before {
+  content: "\e927";
+}
+.qia-StripeB:before {
+  content: "\e92c";
+}
+.qia-StripeA:before {
+  content: "\e92f";
+}
+.qia-GoogleCalender:before {
+  content: "\e934";
+  color: #4b4b4b;
+}
+.qia-GoogleGroup:before {
+  content: "\e935";
+  color: #4b4b4b;
+}
+.qia-NHK:before {
+  content: "\e936";
+  color: #4b4b4b;
+}
+.qia-FxC:before {
+  content: "\e937";
+  color: #4b4b4b;
+}
+.qia-info:before {
   content: "\e900";
   color: #4b4b4b;
 }
-.qia-関数アイコン2:before {
+.qia-fx:before {
   content: "\e901";
   color: #4b4b4b;
 }
-.qia-カレンダーのフリーアイコン30:before {
+.qia-cal:before {
   content: "\e902";
   color: #4b4b4b;
 }
-.qia-文書ドキュメント:before {
+.qia-doc:before {
   content: "\e903";
   color: #4b4b4b;
 }
-.qia-吹き出しのアイコン2:before {
+.qia-chat:before {
   content: "\e904";
   color: #4b4b4b;
 }
-.qia-接続のフリー素材1:before {
+.qia-plug:before {
   content: "\e905";
   color: #4b4b4b;
 }
-.qia-メールの無料アイコン:before {
+.qia-mail:before {
   content: "\e906";
   color: #4b4b4b;
 }
-.qia-フィルタアイコン4:before {
+.qia-filter:before {
   content: "\e907";
   color: #4b4b4b;
 }
-.qia-ピッケルアイコン:before {
+.qia-axe:before {
   content: "\e908";
   color: #4b4b4b;
 }
-.qia-ダウンロード矢印:before {
+.qia-up:before {
   content: "\e909";
   color: #4b4b4b;
 }
-.qia-シンプルな電卓アイコン:before {
+.qia-calc:before {
   content: "\e90a";
   color: #4b4b4b;
 }
-.qia-ごみ箱のフリーアイコン:before {
+.qia-trash:before {
   content: "\e90b";
   color: #4b4b4b;
 }
-.qia-DBのアイコン素材-その2:before {
+.qia-strage:before {
   content: "\e90c";
   color: #4b4b4b;
 }
-.qia-brand5:before {
+.qia-amazon:before {
   content: "\e90d";
   color: #f90;
 }
-.qia-brand6:before {
+.qia-amex:before {
   content: "\e90e";
   color: #2e77bc;
 }
-.qia-brand7:before {
+.qia-android:before {
   content: "\e90f";
   color: #a4c639;
 }
-.qia-brand8:before {
+.qia-apple:before {
   content: "\e910";
   color: #999;
 }
-.qia-brand9:before {
-  content: "\e911";
-  color: #6c6;
-}
-.qia-brand10:before {
-  content: "\e912";
-  color: #008373;
-}
-.qia-brand11:before {
+.qia-bitbucket:before {
   content: "\e913";
   color: #205081;
 }
-.qia-brand12:before {
-  content: "\e914";
-  color: #f7931a;
-}
-.qia-brand13:before {
+.qia-bitly:before {
   content: "\e915";
   color: #ee6123;
 }
-.qia-brand14:before {
+.qia-blogger:before {
   content: "\e916";
   color: #f38936;
 }
-.qia-brand15:before {
-  content: "\e917";
-  color: #563d7c;
-}
-.qia-brand16:before {
+.qia-buffer:before {
   content: "\e918";
 }
-.qia-brand17:before {
-  content: "\e919";
-  color: #1572b6;
-}
-.qia-brand18:before {
-  content: "\e91a";
-}
-.qia-brand19:before {
+.qia-digg:before {
   content: "\e91b";
 }
-.qia-brand20:before {
+.qia-docker:before {
   content: "\e91c";
   color: #1488c6;
 }
-.qia-brand21:before {
+.qia-dropbox2:before {
   content: "\e91d";
   color: #007ee5;
 }
-.qia-brand22:before {
-  content: "\e91e";
-  color: #0678be;
-}
-.qia-brand23:before {
+.qia-ebay:before {
   content: "\e91f";
   color: #e53238;
 }
-.qia-brand24:before {
+.qia-evernote:before {
   content: "\e920";
   color: #2dbe60;
 }
-.qia-brand25:before {
+.qia-facebook:before {
   content: "\e921";
   color: #3b5998;
 }
-.qia-brand26:before {
+.qia-feedly:before {
   content: "\e922";
   color: #6cc655;
 }
-.qia-brand27:before {
-  content: "\e923";
-  color: #e12828;
-}
-.qia-brand28:before {
+.qia-foursquare:before {
   content: "\e924";
   color: #f94877;
 }
-.qia-brand29:before {
+.qia-git:before {
   content: "\e925";
   color: #f14e32;
 }
-.qia-brand30:before {
+.qia-github:before {
   content: "\e926";
 }
-.qia-brand31:before {
-  content: "\e927";
-  color: #7cb228;
-}
-.qia-brand32:before {
+.qia-google:before {
   content: "\e928";
   color: #4285f4;
 }
-.qia-brand33:before {
+.qia-google-analy:before {
   content: "\e929";
   color: #ffc107;
 }
-.qia-brand34:before {
+.qia-google-doc:before {
   content: "\e92a";
   color: #4386fc;
 }
-.qia-brand35:before {
+.qia-hangout:before {
   content: "\e92b";
   color: #0c9d58;
 }
-.qia-brand36:before {
-  content: "\e92c";
-  color: #607d8b;
-}
-.qia-brand37:before {
+.qia-google-plus:before {
   content: "\e92d";
   color: #dc4e41;
 }
-.qia-brand38:before {
+.qia-hatebu:before {
   content: "\e92e";
   color: #00a4de;
 }
-.qia-brand39:before {
-  content: "\e92f";
-  color: #e34f26;
-}
-.qia-brand40:before {
+.qia-hulu:before {
   content: "\e930";
   color: #6a3;
 }
-.qia-brand41:before {
+.qia-insta:before {
   content: "\e931";
   color: #e4405f;
 }
-.qia-brand42:before {
+.qia-jenkins:before {
   content: "\e932";
   color: #d24939;
 }
-.qia-brand43:before {
+.qia-line:before {
   content: "\e933";
   color: #00c300;
 }
-.qia-brand44:before {
-  content: "\e934";
-  color: #0077b5;
-}
-.qia-brand45:before {
-  content: "\e935";
-}
-.qia-brand46:before {
-  content: "\e936";
-  color: #0084ff;
-}
-.qia-brand47:before {
-  content: "\e937";
-  color: #ba141a;
-}
-.qia-brand48:before {
-  content: "\e938";
-  color: #217346;
-}
-.qia-brand49:before {
-  content: "\e939";
-  color: #80397b;
-}
-.qia-brand50:before {
-  content: "\e93a";
-  color: #0072c6;
-}
-.qia-brand51:before {
-  content: "\e93b";
-  color: #d24726;
-}
-.qia-brand52:before {
-  content: "\e93c";
-  color: #2b579a;
-}
-.qia-brand53:before {
-  content: "\e93d";
-  color: #62b74a;
-}
-.qia-brand54:before {
+.qia-paypal2:before {
   content: "\e93e";
   color: #00457c;
 }
-.qia-brand55:before {
+.qia-pintarest:before {
   content: "\e93f";
   color: #bd081c;
 }
-.qia-brand56:before {
-  content: "\e940";
-  color: #039;
-}
-.qia-brand57:before {
-  content: "\e941";
-  color: #ef3f56;
-}
-.qia-brand58:before {
-  content: "\e942";
-  color: #c7053d;
-}
-.qia-brand59:before {
-  content: "\e943";
-  color: #00d8ff;
-}
-.qia-brand60:before {
-  content: "\e944";
-  color: #ff4500;
-}
-.qia-brand61:before {
-  content: "\e945";
-  color: #00aff0;
-}
-.qia-brand62:before {
+.qia-slack2:before {
   content: "\e946";
   color: #56b68b;
 }
-.qia-brand63:before {
-  content: "\e947";
-  color: #fffc00;
-}
-.qia-brand64:before {
-  content: "\e948";
-  color: #f30;
-}
-.qia-brand65:before {
+.qia-spotify:before {
   content: "\e949";
   color: #1ed760;
 }
-.qia-brand66:before {
+.qia-ted:before {
   content: "\e94a";
   color: #e62b1e;
-}
-.qia-brand67:before {
-  content: "\e94b";
-  color: #0079bf;
-}
-.qia-brand68:before {
-  content: "\e94c";
-  color: #589442;
-}
-.qia-brand69:before {
-  content: "\e94d";
-  color: #36465d;
 }
 .qia-brand70:before {
   content: "\e94e";
   color: #f22f46;
 }
-.qia-brand71:before {
-  content: "\e94f";
-  color: #6441a5;
-}
-.qia-brand72:before {
+.qia-twitter:before {
   content: "\e950";
   color: #1da1f2;
 }
-.qia-brand73:before {
+.qia-uber:before {
   content: "\e951";
 }
-.qia-brand74:before {
+.qia-viemo:before {
   content: "\e952";
   color: #1ab7ea;
 }
-.qia-brand75:before {
+.qia-visa:before {
   content: "\e953";
   color: #142787;
 }
-.qia-brand76:before {
-  content: "\e954";
-  color: #0078d6;
-}
-.qia-brand77:before {
-  content: "\e955";
-  color: #ffc233;
-}
-.qia-brand78:before {
+.qia-wp:before {
   content: "\e956";
   color: #21759b;
 }
-.qia-brand79:before {
-  content: "\e957";
-  color: #107c10;
-}
-.qia-brand80:before {
-  content: "\e958";
-  color: #0072c6;
-}
-.qia-brand81:before {
-  content: "\e959";
-  color: #f0652f;
-}
-.qia-brand82:before {
-  content: "\e95a";
-  color: #c41200;
-}
-.qia-brand83:before {
+.qia-youtube:before {
   content: "\e95b";
   color: #cd201f;
-}
-.qia-brand3:before {
-  content: "\e95c";
-  color: #56b68b;
 }
 .qia-slack:before {
   content: "\e95c";
   color: #56b68b;
 }
-.qia-google-drive2:before {
-  content: "\e95d";
-}
-.qia-dropbox2:before {
+.qia-dropbox:before {
   content: "\e95e";
-}
-.qia-brand4:before {
-  content: "\e95e";
-}
-.qia-google-drive:before {
-  content: "\e95f";
-}
-.qia-brand2:before {
-  content: "\e95f";
 }
 .qia-paypal:before {
   content: "\e960";
 }
-.qia-brand:before {
-  content: "\e960";
-}
-.qia-donate:before {
-  content: "\e960";
-}
-.qia-database:before {
-  content: "\e961";
-}
-.qia-db:before {
-  content: "\e961";
-}
-.qia-server:before {
-  content: "\e961";
-}
-.qia-host:before {
-  content: "\e961";
-}
-.qia-storage:before {
-  content: "\e961";
-}
-.qia-save:before {
-  content: "\e961";
-}
-.qia-datecenter:before {
-  content: "\e961";
-}
-.qia-bubbles:before {
-  content: "\e962";
-}
-.qia-comments:before {
-  content: "\e962";
-}
-.qia-chat:before {
-  content: "\e962";
-}
-.qia-talk:before {
-  content: "\e962";
-}
-.qia-dropbox:before {
-  content: "\e963";
-}
-.qia-cc-paypal:before {
-  content: "\e964";
-}
-.qia-paypal2:before {
-  content: "\e965";
-}
-.qia-cc-stripe:before {
+.qia-stripe:before {
   content: "\e966";
 }
-.qia-credit-card-alt:before {
+.qia-credit-card:before {
   content: "\e967";
 }
