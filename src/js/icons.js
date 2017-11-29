@@ -9,6 +9,7 @@ var icons = [
 	{label:"フィルター", value:"&#xe907;", color:""},
 	{label:"加工", value:"&#xe908;", color:""},
 	{label:"アップロード", value:"&#xe909;", color:""},
+	{label:"ダウンロード", value:"&#xe93a;", color:""},
 	{label:"計算", value:"&#xe90a;", color:""},
 	{label:"削除", value:"&#xe90b;", color:""},
 	{label:"ストレージ", value:"&#xe90c;", color:""},

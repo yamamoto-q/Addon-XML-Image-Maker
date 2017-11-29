@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "Addon",
-    "lastOpened": 1497503531070,
-    "created": 1497503528231
+    "lastOpened": 0,
+    "created": 1511946526494
   },
   "iconSets": [
     {
@@ -542,12 +542,20 @@
     {
       "selection": [
         {
+          "order": 141,
+          "id": 20,
+          "name": "Download",
+          "prevSize": 32,
+          "code": 59706,
+          "tempChar": ""
+        },
+        {
           "order": 136,
           "id": 19,
           "name": "FxC",
           "prevSize": 32,
           "code": 59703,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 108,
@@ -555,7 +563,7 @@
           "name": "info",
           "prevSize": 32,
           "code": 59648,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 103,
@@ -563,7 +571,7 @@
           "name": "fx",
           "prevSize": 32,
           "code": 59649,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 104,
@@ -571,7 +579,7 @@
           "name": "cal",
           "prevSize": 32,
           "code": 59650,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 105,
@@ -579,7 +587,7 @@
           "name": "doc",
           "prevSize": 32,
           "code": 59651,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 106,
@@ -587,7 +595,7 @@
           "name": "chat",
           "prevSize": 32,
           "code": 59652,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 107,
@@ -595,7 +603,7 @@
           "name": "plug",
           "prevSize": 32,
           "code": 59653,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -623,7 +631,7 @@
           "name": "mail",
           "prevSize": 32,
           "code": 59654,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 110,
@@ -631,7 +639,7 @@
           "name": "filter",
           "prevSize": 32,
           "code": 59655,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 111,
@@ -639,7 +647,7 @@
           "name": "axe",
           "prevSize": 32,
           "code": 59656,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 112,
@@ -647,7 +655,7 @@
           "name": "up",
           "prevSize": 32,
           "code": 59657,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 113,
@@ -655,7 +663,7 @@
           "name": "calc",
           "prevSize": 32,
           "code": 59658,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 114,
@@ -663,7 +671,7 @@
           "name": "trash",
           "prevSize": 32,
           "code": 59659,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -681,7 +689,7 @@
           "name": "strage",
           "prevSize": 32,
           "code": 59660,
-          "tempChar": ""
+          "tempChar": ""
         }
       ],
       "id": 9,
@@ -695,6 +703,23 @@
       "height": 1024,
       "prevSize": 32,
       "icons": [
+        {
+          "id": 20,
+          "paths": [
+            "M854.516 488.498c0.406-5.208 0.676-10.456 0.676-15.77 0-110.466-89.55-200.016-200.016-200.016-34.042 0-66.084 8.528-94.144 23.528-30.272-85.266-111.618-146.344-207.266-146.344-121.458 0-219.92 98.462-219.92 219.92 0 22.832 3.482 44.85 9.94 65.556-84.178 33.136-143.786 115.104-143.786 211.048 0 125.254 101.538 226.792 226.792 226.792h585.284c6.042 0.568 12.158 0.89 18.35 0.89 106.908 0 193.576-86.666 193.576-193.576-0.002-98.744-73.954-180.16-169.486-192.028zM626.512 604.53l-106.828 140.808c-7.306 9.632-19.264 9.632-26.568 0l-106.828-140.808c-7.306-9.632-3.394-17.512 8.694-17.512h40.902c12.088 0 21.98-9.89 21.98-21.978v-116.148c0-12.088 9.888-21.98 21.978-21.98h53.116c12.088 0 21.978 9.892 21.978 21.98v116.148c0 12.088 9.89 21.978 21.978 21.978h40.902c12.090 0 16.002 7.88 8.696 17.512z"
+          ],
+          "attrs": [
+            {
+              "fill": "rgb(75, 75, 75)"
+            }
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "クラウドのダウンロードアイコン"
+          ]
+        },
         {
           "id": 19,
           "paths": [
@@ -1302,7 +1327,7 @@
           "prevSize": 32,
           "code": 59661,
           "name": "amazon",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 7,
@@ -1310,7 +1335,7 @@
           "prevSize": 32,
           "code": 59662,
           "name": "amex",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 8,
@@ -1318,7 +1343,7 @@
           "prevSize": 32,
           "code": 59663,
           "name": "android",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 9,
@@ -1326,7 +1351,7 @@
           "prevSize": 32,
           "code": 59664,
           "name": "apple",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 10,
@@ -1390,7 +1415,7 @@
           "prevSize": 32,
           "code": 59667,
           "name": "bitbucket",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 23,
@@ -1406,7 +1431,7 @@
           "prevSize": 32,
           "code": 59669,
           "name": "bitly",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 25,
@@ -1414,7 +1439,7 @@
           "prevSize": 32,
           "code": 59670,
           "name": "blogger",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 26,
@@ -1434,7 +1459,7 @@
           "prevSize": 32,
           "code": 59672,
           "name": "buffer",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 29,
@@ -1542,7 +1567,7 @@
           "prevSize": 32,
           "code": 59675,
           "name": "digg",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 53,
@@ -1566,7 +1591,7 @@
           "prevSize": 32,
           "code": 59676,
           "name": "docker",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 58,
@@ -1582,7 +1607,7 @@
           "prevSize": 32,
           "code": 59677,
           "name": "dropbox2",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 61,
@@ -1598,7 +1623,7 @@
           "prevSize": 32,
           "code": 59679,
           "name": "ebay",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 63,
@@ -1630,7 +1655,7 @@
           "prevSize": 32,
           "code": 59680,
           "name": "evernote",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 70,
@@ -1642,7 +1667,7 @@
           "prevSize": 32,
           "code": 59681,
           "name": "facebook",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 72,
@@ -1650,7 +1675,7 @@
           "prevSize": 32,
           "code": 59682,
           "name": "feedly",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 73,
@@ -1674,7 +1699,7 @@
           "prevSize": 32,
           "code": 59684,
           "name": "foursquare",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 77,
@@ -1706,7 +1731,7 @@
           "prevSize": 32,
           "code": 59685,
           "name": "git",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 84,
@@ -1714,7 +1739,7 @@
           "prevSize": 32,
           "code": 59686,
           "name": "github",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 85,
@@ -1750,7 +1775,7 @@
           "prevSize": 32,
           "code": 59688,
           "name": "google",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 92,
@@ -1758,7 +1783,7 @@
           "prevSize": 32,
           "code": 59689,
           "name": "google-analy",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 93,
@@ -1766,7 +1791,7 @@
           "prevSize": 32,
           "code": 59690,
           "name": "google-doc",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 94,
@@ -1774,7 +1799,7 @@
           "prevSize": 32,
           "code": 59691,
           "name": "hangout",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 95,
@@ -1790,7 +1815,7 @@
           "prevSize": 32,
           "code": 59693,
           "name": "google-plus",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 97,
@@ -1830,7 +1855,7 @@
           "prevSize": 32,
           "code": 59694,
           "name": "hatebu",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 106,
@@ -1862,7 +1887,7 @@
           "prevSize": 32,
           "code": 59696,
           "name": "hulu",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 112,
@@ -1882,7 +1907,7 @@
           "prevSize": 32,
           "code": 59697,
           "name": "insta",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 116,
@@ -1910,7 +1935,7 @@
           "prevSize": 32,
           "code": 59698,
           "name": "jenkins",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 122,
@@ -1982,7 +2007,7 @@
           "prevSize": 32,
           "code": 59699,
           "name": "line",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 139,
@@ -2198,7 +2223,7 @@
           "prevSize": 32,
           "code": 59710,
           "name": "paypal2",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 182,
@@ -2222,7 +2247,7 @@
           "prevSize": 32,
           "code": 59711,
           "name": "pintarest",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 187,
@@ -2398,7 +2423,7 @@
           "prevSize": 32,
           "code": 59718,
           "name": "slack2",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 224,
@@ -2446,7 +2471,7 @@
           "prevSize": 32,
           "code": 59721,
           "name": "spotify",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 233,
@@ -2522,7 +2547,7 @@
           "prevSize": 32,
           "code": 59722,
           "name": "ted",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 251,
@@ -2602,7 +2627,7 @@
           "prevSize": 32,
           "code": 59726,
           "name": "brand70",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 267,
@@ -2618,7 +2643,7 @@
           "prevSize": 32,
           "code": 59728,
           "name": "twitter",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 269,
@@ -2630,7 +2655,7 @@
           "prevSize": 32,
           "code": 59729,
           "name": "uber",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 271,
@@ -2662,7 +2687,7 @@
           "prevSize": 32,
           "code": 59730,
           "name": "viemo",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 278,
@@ -2678,7 +2703,7 @@
           "prevSize": 32,
           "code": 59731,
           "name": "visa",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 281,
@@ -2726,7 +2751,7 @@
           "prevSize": 32,
           "code": 59734,
           "name": "wp",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 290,
@@ -2778,7 +2803,7 @@
           "prevSize": 32,
           "code": 59739,
           "name": "youtube",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 298,
@@ -8232,7 +8257,7 @@
           "name": "slack",
           "prevSize": 32,
           "code": 59740,
-          "tempChar": ""
+          "tempChar": ""
         }
       ],
       "id": 5,
@@ -8286,7 +8311,7 @@
           "name": "dropbox",
           "prevSize": 32,
           "code": 59742,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -8302,7 +8327,7 @@
           "name": "paypal",
           "prevSize": 32,
           "code": 59744,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -8486,7 +8511,7 @@
           "name": "stripe",
           "prevSize": 28,
           "code": 59750,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 119,
@@ -8494,7 +8519,7 @@
           "name": "credit-card",
           "prevSize": 28,
           "code": 59751,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 0,
@@ -8831,7 +8856,6 @@
       "colorThemes": []
     }
   ],
-  "uid": -1,
   "preferences": {
     "showGlyphs": true,
     "showCodes": true,
@@ -8868,5 +8892,6 @@
     },
     "historySize": 50,
     "showLiga": true
-  }
+  },
+  "uid": -1
 }

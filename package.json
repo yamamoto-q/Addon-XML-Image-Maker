@@ -1,7 +1,7 @@
 {
   "name": "qeyecatchiconmaker",
   "version": "0.0.1",
-  "description": "",
+  "description": "今すぐ使う > [Addon-XML Image Maker : rawgit](https://rawgit.com/yamamoto-q/Addon-XML-Image-Maker/master/dist/index.html)",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-contrib-uglify": "^3.0.1"
-  }
+    "grunt-contrib-uglify": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://yamamoto-q:p1490062@github.com/yamamoto-q/Addon-XML-Image-Maker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yamamoto-q/Addon-XML-Image-Maker/issues"
+  },
+  "homepage": "https://github.com/yamamoto-q/Addon-XML-Image-Maker#readme"
 }

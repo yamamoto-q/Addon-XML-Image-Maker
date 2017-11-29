@@ -22,7 +22,10 @@ i {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.qia-Download:before {
+  content: "\e93a";
+  color: #4b4b4b;
+}
 .qia-typetalk:before {
   content: "\e938";
 }
