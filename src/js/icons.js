@@ -8,6 +8,7 @@ var icons = [
 	{label:"接続", value:"&#xe905;", color:""},
 	{label:"歯車", value:"&#xe93c;", color:""},
 	{label:"メッセージ", value:"&#xe906;", color:""},
+	{label:"フォルダー", value:"&#xe942;", color:""},
 	{label:"フィルター", value:"&#xe907;", color:""},
 	{label:"加工", value:"&#xe908;", color:""},
 	{label:"アップロード", value:"&#xe909;", color:""},
@@ -34,6 +35,7 @@ var icons = [
 	{label:"Stripe", value:"&#xe92c;", color:"62,138,198"},
 	{label:"typetalk", value:"&#xe938;", color:"252,99,71"},
 	{label:"Twilio", value:"&#xe94e;", color:"242,47,70"},
+	{label:"zendesk", value:"&#xe943;", color:"2,54,61"},
 	{label:"法人番号 API", value:"&#xe919;", color:"219,5,32"},
 	{label:"その他のクラウド連携", value:"&#xe93d;", color:"0,153,0"},
 ];
