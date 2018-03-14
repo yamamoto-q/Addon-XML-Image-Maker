@@ -27,6 +27,7 @@ var icons = [
 	{label:"Google Groups", value:"&#xe935;", color:"65,105,255"},
 	{label:"Google Sheets", value:"&#xe912;", color:"16,157,68"},
 	{label:"Kintone", value:"&#xe914;", color:"252,184,0"},
+	{label:"Line", value:"&#xe933;", color:"0,195,0"},
 	{label:"NHK 番組表API", value:"&#xe936;", color:"28,98,158"},
 	{label:"salesforce", value:"&#xe917;", color:"16,154,215"},
 	{label:"PayPal", value:"&#xe960;", color:"0,112,186"},
