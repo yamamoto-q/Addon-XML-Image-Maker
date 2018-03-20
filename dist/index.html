@@ -1,134 +1,167 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Addon-XML Image Maker</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-     <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="noto.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="noto.css">
     <style type="text/css">
-      body{
+    body {
         margin-top: 60px;
-        font-family:'noto';
-      }
+        font-family: 'noto';
+    }
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
     <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
-      <button class="navbar-toggler navbar-toggler-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">Addon-XML Image Maker</a>
-
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="https://github.com/yamamoto-q/Addon-XML-Image-Maker">GitHub <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-      </div>
+        <button class="navbar-toggler navbar-toggler-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Addon-XML Image Maker</a>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://github.com/yamamoto-q/Addon-XML-Image-Maker">GitHub <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
     </nav>
-
     <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <div class="form-group">
-            <label for="exampleSelect1">背景色のテーマ</label>
-            <select class="form-control" id="bgcolor">
-              <option selected value="0,153,0">Questetra 標準</option>
-              <option value="66,206,159">サービス：backlog</option>
-              <option value="0,97,213">サービス：box</option>
-              <option value="249,66,58">サービス：ChatWork</option>
-              <option value="0,126,229">サービス：Dropbox</option>
-              <option value="245,125,1">サービス：Google Analytics</option>
-              <option value="68,132,240">サービス：Google Calender</option>
-              <option value="87,127,192">サービス：Google Cloud Print</option>
-              <option value="72,136,247">サービス：Google Drive</option>
-              <option value="65,105,255">サービス：Google Groups</option>
-              <option value="16,157,68">サービス：Google Sheets</option>
-              <option value="252,184,0">サービス：Kintone</option>
-              <option value="0,195,0">サービス：Line</option>
-              <option value="28,98,158">サービス：NHK 番組検索API</option>
-              <option value="16,154,215">サービス：salesforce</option>
-              <option value="0,112,186">サービス：Paypal</option>
-              <option value="0,153,0">サービス：Questetra</option>
-              <option value="120,212,182">サービス：Slack</option>
-              <option value="62,138,198">サービス：Stripe</option>
-              <option value="242,47,70">サービス：Twilio</option>
-              <option value="252,99,71">サービス：typetalk</option>
-              <option value="2,54,61">サービス：zendesk</option>
-              <option value="219,5,32">サービス：法人番号システム</option>
-              <option value="0,153,0">サービス：その他のクラウド連携</option>
-            </select>
-          </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="exampleSelect1">背景色のテーマ</label>
+                    <select class="form-control" id="bgcolor">
+                        <option selected value="0,153,0">Questetra 標準</option>
+                        <option value="66,206,159">サービス：backlog</option>
+                        <option value="0,97,213">サービス：box</option>
+                        <option value="249,66,58">サービス：ChatWork</option>
+                        <option value="0,126,229">サービス：Dropbox</option>
+                        <option value="245,125,1">サービス：Google Analytics</option>
+                        <option value="68,132,240">サービス：Google Calender</option>
+                        <option value="87,127,192">サービス：Google Cloud Print</option>
+                        <option value="72,136,247">サービス：Google Drive</option>
+                        <option value="65,105,255">サービス：Google Groups</option>
+                        <option value="16,157,68">サービス：Google Sheets</option>
+                        <option value="252,184,0">サービス：Kintone</option>
+                        <option value="0,195,0">サービス：Line</option>
+                        <option value="28,98,158">サービス：NHK 番組検索API</option>
+                        <option value="16,154,215">サービス：salesforce</option>
+                        <option value="0,112,186">サービス：Paypal</option>
+                        <option value="0,153,0">サービス：Questetra</option>
+                        <option value="120,212,182">サービス：Slack</option>
+                        <option value="62,138,198">サービス：Stripe</option>
+                        <option value="242,47,70">サービス：Twilio</option>
+                        <option value="252,99,71">サービス：typetalk</option>
+                        <option value="2,54,61">サービス：zendesk</option>
+                        <option value="219,5,32">サービス：法人番号システム</option>
+                        <option value="0,153,0">サービス：その他のクラウド連携</option>
+                        <optgroup label="Matelial Medium-500 ">
+                            <option value="244,67,54">Red</option>
+                            <option value="233,30,99">Pink</option>
+                            <option value="156,39,176">Purple</option>
+                            <option value="103,58,183">DeepPurple</option>
+                            <option value="63,81,181">Indigo</option>
+                            <option value="33,150,243">Blue</option>
+                            <option value="3,169,244">LightBlue</option>
+                            <option value="0,188,212">Cyan</option>
+                            <option value="0,150,136">Teal</option>
+                            <option value="139,195,74">LightGreen</option>
+                            <option value="205,220,57">Lime</option>
+                            <option value="255,235,59">Yellow</option>
+                            <option value="255,193,7">Amber</option>
+                            <option value="255,152,0">Orange</option>
+                            <option value="255,87,34">DeepOrange</option>
+                            <option value="121,85,72">Brown</option>
+                            <option value="158,158,158">Grey</option>
+                            <option value="96,125,139">BlueGrey</option>
+                        </optgroup>
+                        <optgroup label="Matelial Dark-800">
+                            <option value="198,40,40">Red</option>
+                            <option value="173,20,87">Pink</option>
+                            <option value="74,20,140">Purple</option>
+                            <option value="103,58,183">DeepPurple</option>
+                            <option value="640,53,147">Indigo</option>
+                            <option value="21,101,192">Blue</option>
+                            <option value="2,119,189">LightBlue</option>
+                            <option value="0,131,143">Cyan</option>
+                            <option value="0,105,92">Teal</option>
+                            <option value="85,139,47">LightGreen</option>
+                            <option value="216,67,1">DeepOrange</option>
+                            <option value="78,52,46">Brown</option>
+                            <option value="66,66,66">Grey</option>
+                            <option value="55,71,79">BlueGrey</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="exampleSelect1">主アイコン</label>
+                    <select class="form-control icon-selector" id="main-icon">
+                    </select>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="exampleSelect1">サブアイコン：主アイコンがサービスの時のみ</label>
+                    <select class="form-control icon-selector" id="sub-icon">
+                        <option selected value="none">(なし)</option>
+                    </select>
+                </div>
+            </div>
         </div>
-        <div class="col">
-          <div class="form-group">
-            <label for="exampleSelect1">主アイコン</label>
-            <select class="form-control icon-selector" id="main-icon">
-            </select>
-          </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="title">タイトル：幅が収まらないときはサブも利用</label>
+                    <input type="text" class="form-control" id="title">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="sub-title">サブタイトル</label>
+                    <input type="text" class="form-control" id="sub-title">
+                </div>
+            </div>
         </div>
-        <div class="col">
-          <div class="form-group">
-            <label for="exampleSelect1">サブアイコン：主アイコンがサービスの時のみ</label>
-            <select class="form-control icon-selector" id="sub-icon">
-              <option selected value="none">(なし)</option>
-            </select>
-          </div>
+        <hr />
+        <div class="row">
+            <div class="col">
+                <h4>1200x630 (表示:25%)</h4>
+                <canvas id="canvas-1200x630" width="1200" height="630"></canvas>
+            </div>
+            <div class="col">
+                <h4>600x315 (表示:50%)</h4>
+                <canvas id="canvas-600x315" width="600" height="315"></canvas>
+            </div>
+            <div class="col">
+                <h4>220x220</h4>
+                <canvas id="canvas-220x220" width="220" height="220"></canvas>
+            </div>
+            <div class="col">
+                <h4>32x32 (task-icon)</h4>
+                <canvas id="canvas-32x32" width="32" height="32"></canvas>
+            </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="form-group">
-            <label for="title">タイトル：幅が収まらないときはサブも利用</label>
-            <input type="text" class="form-control" id="title">
-          </div>
+        <div class="row">
+            <div class="col">
+                <h4>32x32 Base64</h4>
+                <div class="form-group">
+                    <textarea id="base64" class="form-control" readonly rows="12" cols="80"></textarea>
+                </div>
+            </div>
         </div>
-        <div class="col">
-          <div class="form-group">
-            <label for="sub-title">サブタイトル</label>
-            <input type="text" class="form-control" id="sub-title">
-          </div>
-        </div>
-      </div>
-
-      <hr />
-
-      <div class="row">
-        <div class="col">
-          <h4>1200x630 (表示:25%)</h4>
-          <canvas id="canvas-1200x630" width="1200" height="630"></canvas>
-        </div>
-        <div class="col">
-          <h4>600x315 (表示:50%)</h4>
-          <canvas id="canvas-600x315" width="600" height="315"></canvas>
-        </div>
-        <div class="col">
-          <h4>220x220</h4>
-          <canvas id="canvas-220x220" width="220" height="220"></canvas>
-        </div>
-        <div class="col">
-          <h4>32x32 (task-icon)</h4>
-          <canvas id="canvas-32x32" width="32" height="32"></canvas>
-        </div> 
-      </div>
-
-      <div class="row">
-        <div class="col">
-          <h4>32x32 Base64</h4>
-          <div class="form-group">
-            <textarea id="base64" class="form-control" readonly rows="12" cols="80"></textarea>
-          </div>
-        </div>
-      </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="js/icons-min.js?ver=2"></script>
     <script src="js/main-min.js"></script>
-  </body>
+</body>
+
 </html>

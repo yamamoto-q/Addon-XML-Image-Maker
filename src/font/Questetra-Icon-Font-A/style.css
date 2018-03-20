@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Questetra-Icon-Font-A';
   src:
-    url('fonts/Questetra-Icon-Font-A.ttf?ybqok8') format('truetype'),
-    url('fonts/Questetra-Icon-Font-A.woff?ybqok8') format('woff'),
-    url('fonts/Questetra-Icon-Font-A.svg?ybqok8#Questetra-Icon-Font-A') format('svg');
+    url('fonts/Questetra-Icon-Font-A.ttf?qn31z9') format('truetype'),
+    url('fonts/Questetra-Icon-Font-A.woff?qn31z9') format('woff'),
+    url('fonts/Questetra-Icon-Font-A.svg?qn31z9#Questetra-Icon-Font-A') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,18 @@ i {
 .qia-Questetra:before {
   content: "\e93b";
   color: #4c4b4b;
+}
+.qia-Takeo:before {
+  content: "\e948";
+}
+.qia-Onesan:before {
+  content: "\e94b";
+}
+.qia-Onigiri:before {
+  content: "\e94c";
+}
+.qia-Obachan:before {
+  content: "\e94d";
 }
 .qia-BPMN:before {
   content: "\e945";
@@ -339,4 +351,7 @@ i {
 }
 .qia-credit-card:before {
   content: "\e967";
+}
+.qia-extension:before {
+  content: "\e947";
 }

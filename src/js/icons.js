@@ -40,5 +40,10 @@ var icons = [
 	{label:"zendesk", value:"&#xe943;", color:"2,54,61"},
 	{label:"法人番号 API", value:"&#xe919;", color:"219,5,32"},
 	{label:"その他のクラウド連携", value:"&#xe93d;", color:"0,153,0"},
-	{label:"BPMN", value:"&#xe945;", color:"0,112,186"},
+	{label:"BPMN", value:"&#xe945;", color:"0,153,0"},
+	{label:"Plugin", value:"&#xe947;", color:"96,125,139"},
+	{label:"たけお", value:"&#xe948;", color:"0,153,0"},
+	{label:"おにぎり部長", value:"&#xe94c;", color:"0,153,0"},
+	{label:"おばちゃん", value:"&#xe94d", color:"0,153,0"},
+	{label:"おねえさん", value:"&#xe94b;", color:"0,153,0"},
 ];
