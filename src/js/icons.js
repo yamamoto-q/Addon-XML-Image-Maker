@@ -19,6 +19,7 @@ var icons = [
 	{label:"クレジットカード", value:"&#xe911;", color:""},
 	{label:"backlog", value:"&#xe939;", color:"66,206,159"},
 	{label:"box", value:"&#xe91a;", color:"0,97,213"},
+	{label:"ChatWork", value:"&#xe944;", color:"249,66,58"},
 	{label:"Dropbox", value:"&#xe91d;", color:"0,126,229"},
 	{label:"Google Analytics", value:"&#xe929;", color:"245,125,1"},
 	{label:"Google Calender", value:"&#xe934;", color:"68,132,240"},
@@ -39,4 +40,5 @@ var icons = [
 	{label:"zendesk", value:"&#xe943;", color:"2,54,61"},
 	{label:"法人番号 API", value:"&#xe919;", color:"219,5,32"},
 	{label:"その他のクラウド連携", value:"&#xe93d;", color:"0,153,0"},
+	{label:"BPMN", value:"&#xe945;", color:"0,112,186"},
 ];
