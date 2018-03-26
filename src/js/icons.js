@@ -46,4 +46,5 @@ var icons = [
 	{label:"おにぎり部長", value:"&#xe94c;", color:"0,153,0"},
 	{label:"おばちゃん", value:"&#xe94d", color:"0,153,0"},
 	{label:"おねえさん", value:"&#xe94b;", color:"0,153,0"},
+	{label:"クエス君", value:"&#xe94f;", color:"0,153,0"},
 ];
