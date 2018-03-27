@@ -17,6 +17,8 @@ var icons = [
 	{label:"削除", value:"&#xe90b;", color:""},
 	{label:"ストレージ", value:"&#xe90c;", color:""},
 	{label:"クレジットカード", value:"&#xe911;", color:""},
+	{label:"電球", value:"&#xe954;", color:""},
+	{label:"?", value:"&#xe958;", color:""},
 	{label:"backlog", value:"&#xe939;", color:"66,206,159"},
 	{label:"box", value:"&#xe91a;", color:"0,97,213"},
 	{label:"ChatWork", value:"&#xe944;", color:"249,66,58"},
@@ -46,5 +48,7 @@ var icons = [
 	{label:"おにぎり部長", value:"&#xe94c;", color:"0,153,0"},
 	{label:"おばちゃん", value:"&#xe94d", color:"0,153,0"},
 	{label:"おねえさん", value:"&#xe94b;", color:"0,153,0"},
-	{label:"クエス君", value:"&#xe94f;", color:"0,153,0"},
+	{label:"クエス君 #1 右手Up", value:"&#xe94f;", color:"0,153,0"},
+	{label:"クエス君 #8 ウィンク", value:"&#xe957;", color:"0,153,0"},
+	{label:"クエス君 #11 泣き", value:"&#xe955;", color:"0,153,0"},
 ];

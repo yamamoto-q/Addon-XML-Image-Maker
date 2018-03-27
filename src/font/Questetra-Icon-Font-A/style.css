@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Questetra-Icon-Font-A';
   src:
-    url('fonts/Questetra-Icon-Font-A.ttf?c2k9a') format('truetype'),
-    url('fonts/Questetra-Icon-Font-A.woff?c2k9a') format('woff'),
-    url('fonts/Questetra-Icon-Font-A.svg?c2k9a#Questetra-Icon-Font-A') format('svg');
+    url('fonts/Questetra-Icon-Font-A.ttf?kh72fo') format('truetype'),
+    url('fonts/Questetra-Icon-Font-A.woff?kh72fo') format('woff'),
+    url('fonts/Questetra-Icon-Font-A.svg?kh72fo#Questetra-Icon-Font-A') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,9 +23,18 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.qia-question:before {
+  content: "\e958";
+}
 .qia-Questetra:before {
   content: "\e93b";
   color: #4c4b4b;
+}
+.qia-Ques11:before {
+  content: "\e955";
+}
+.qia-Ques08:before {
+  content: "\e957";
 }
 .qia-Ques01:before {
   content: "\e94f";
@@ -348,6 +357,12 @@ i {
 }
 .qia-paypal:before {
   content: "\e960";
+}
+.qia-credit-card:before {
+  content: "\e967";
+}
+.qia-lightbulb-o:before {
+  content: "\e954";
 }
 .qia-stripe:before {
   content: "\e966";
