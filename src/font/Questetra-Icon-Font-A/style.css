@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Questetra-Icon-Font-A';
   src:
-    url('fonts/Questetra-Icon-Font-A.ttf?kh72fo') format('truetype'),
-    url('fonts/Questetra-Icon-Font-A.woff?kh72fo') format('woff'),
-    url('fonts/Questetra-Icon-Font-A.svg?kh72fo#Questetra-Icon-Font-A') format('svg');
+    url('fonts/Questetra-Icon-Font-A.ttf?qu8u93') format('truetype'),
+    url('fonts/Questetra-Icon-Font-A.woff?qu8u93') format('woff'),
+    url('fonts/Questetra-Icon-Font-A.svg?qu8u93#Questetra-Icon-Font-A') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,8 +23,11 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.qia-question:before {
-  content: "\e958";
+.qia-document-file-pdf:before {
+  content: "\e95f";
+}
+.qia-Service-Task-Icon:before {
+  content: "\e95a";
 }
 .qia-Questetra:before {
   content: "\e93b";
@@ -352,14 +355,77 @@ i {
   content: "\e95c";
   color: #56b68b;
 }
-.qia-dropbox:before {
-  content: "\e95e";
+.qia-question2:before {
+  content: "\f128";
 }
-.qia-paypal:before {
-  content: "\e960";
+.qia-minus:before {
+  content: "\f068";
 }
-.qia-credit-card:before {
-  content: "\e967";
+.qia-glass:before {
+  content: "\f000";
+}
+.qia-music:before {
+  content: "\f001";
+}
+.qia-search:before {
+  content: "\f002";
+}
+.qia-envelope-o:before {
+  content: "\f003";
+}
+.qia-heart:before {
+  content: "\f004";
+}
+.qia-star:before {
+  content: "\f005";
+}
+.qia-star-o:before {
+  content: "\f006";
+}
+.qia-user:before {
+  content: "\f007";
+}
+.qia-search-plus:before {
+  content: "\f00e";
+}
+.qia-search-minus:before {
+  content: "\f010";
+}
+.qia-power-off:before {
+  content: "\f011";
+}
+.qia-signal:before {
+  content: "\f012";
+}
+.qia-cog:before {
+  content: "\f013";
+}
+.qia-gear2:before {
+  content: "\f013";
+}
+.qia-trash-o:before {
+  content: "\f014";
+}
+.qia-home:before {
+  content: "\f015";
+}
+.qia-file-o:before {
+  content: "\f016";
+}
+.qia-clock-o:before {
+  content: "\f017";
+}
+.qia-road:before {
+  content: "\f018";
+}
+.qia-list:before {
+  content: "\f03a";
+}
+.qia-file-pdf-o:before {
+  content: "\e95d";
+}
+.qia-newspaper-o:before {
+  content: "\e959";
 }
 .qia-lightbulb-o:before {
   content: "\e954";
@@ -369,6 +435,15 @@ i {
 }
 .qia-credit-card:before {
   content: "\e967";
+}
+.qia-question:before {
+  content: "\e958";
+}
+.qia-dropbox:before {
+  content: "\e95e";
+}
+.qia-paypal:before {
+  content: "\e960";
 }
 .qia-extension:before {
   content: "\e947";
