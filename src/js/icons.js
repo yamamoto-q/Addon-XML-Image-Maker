@@ -19,11 +19,14 @@ var icons = [
 	{label:"クレジットカード", value:"&#xe911;", color:""},
 	{label:"電球", value:"&#xe954;", color:""},
 	{label:"?", value:"&#xe958;", color:""},
+	{label:"鉛筆", value:"&#xf040;", color:""},
+	{label:"編集", value:"&#xf044;", color:""},
 	{label:"ニュース", value:"&#xe959;", color:""},
 	{label:"backlog", value:"&#xe939;", color:"66,206,159"},
 	{label:"box", value:"&#xe91a;", color:"0,97,213"},
 	{label:"ChatWork", value:"&#xe944;", color:"249,66,58"},
 	{label:"Dropbox", value:"&#xe91d;", color:"0,126,229"},
+	//{label:"Drupal", value:"&#xf1a9;", color:"40,169,224"},
 	{label:"Google Analytics", value:"&#xe929;", color:"245,125,1"},
 	{label:"Google Calender", value:"&#xe934;", color:"68,132,240"},
 	{label:"Google Cloud Print", value:"&#xe923;", color:"87,127,192"},
@@ -35,7 +38,8 @@ var icons = [
 	{label:"NHK 番組表API", value:"&#xe936;", color:"28,98,158"},
 	{label:"salesforce", value:"&#xe917;", color:"16,154,215"},
 	{label:"PayPal", value:"&#xe960;", color:"0,112,186"},
-	{label:"Questetra", value:"&#xe93b;", color:"0,153,0"},
+	//{label:"Questetra", value:"&#xe93b;", color:"0,153,0"},
+	{label:"Questetra", value:"&#xe961;", color:"0,153,0"},
 	{label:"Slack", value:"&#xe946;", color:"120,212,182"},
 	{label:"Stripe", value:"&#xe92c;", color:"62,138,198"},
 	{label:"typetalk", value:"&#xe938;", color:"252,99,71"},
@@ -44,6 +48,7 @@ var icons = [
 	{label:"法人番号 API", value:"&#xe919;", color:"219,5,32"},
 	{label:"その他のクラウド連携", value:"&#xe93d;", color:"0,153,0"},
 	{label:"BPMN", value:"&#xe945;", color:"0,153,0"},
+	{label:"コード", value:"&#xf1c9;", color:"0,153,0"},
 	{label:"サービスタスク", value:"&#xe95a;", color:"0,153,0"},
 	{label:"Plugin", value:"&#xe947;", color:"96,125,139"},
 	{label:"PDF", value:"&#xe95f;", color:"0,153,0"},
@@ -54,5 +59,8 @@ var icons = [
 	{label:"おねえさん", value:"&#xe94b;", color:"0,153,0"},
 	{label:"クエス君 #1 右手Up", value:"&#xe94f;", color:"0,153,0"},
 	{label:"クエス君 #8 ウィンク", value:"&#xe957;", color:"0,153,0"},
-	{label:"クエス君 #11 泣き", value:"&#xe955;", color:"0,153,0"},
+	{label:"クエス君 #11 泣き(障害アイキャッチ)", value:"&#xe955;", color:"244,67,54"},
+
+
+
 ];

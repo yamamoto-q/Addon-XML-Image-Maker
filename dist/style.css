@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Questetra-Icon-Font-A';
   src:
-    url('fonts/Questetra-Icon-Font-A.ttf?qu8u93') format('truetype'),
-    url('fonts/Questetra-Icon-Font-A.woff?qu8u93') format('woff'),
-    url('fonts/Questetra-Icon-Font-A.svg?qu8u93#Questetra-Icon-Font-A') format('svg');
+    url('fonts/Questetra-Icon-Font-A.ttf?dda2o9') format('truetype'),
+    url('fonts/Questetra-Icon-Font-A.woff?dda2o9') format('woff'),
+    url('fonts/Questetra-Icon-Font-A.svg?dda2o9#Questetra-Icon-Font-A') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,8 +23,8 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.qia-document-file-pdf:before {
-  content: "\e95f";
+.qia-questetra2018:before {
+  content: "\e961";
 }
 .qia-Service-Task-Icon:before {
   content: "\e95a";
@@ -355,6 +355,9 @@ i {
   content: "\e95c";
   color: #56b68b;
 }
+.qia-document-file-pdf:before {
+  content: "\e95f";
+}
 .qia-question2:before {
   content: "\f128";
 }
@@ -420,6 +423,30 @@ i {
 }
 .qia-list:before {
   content: "\f03a";
+}
+.qia-pencil:before {
+  content: "\f040";
+}
+.qia-edit:before {
+  content: "\f044";
+}
+.qia-pencil-square-o:before {
+  content: "\f044";
+}
+.qia-google2:before {
+  content: "\f1a0";
+}
+.qia-drupal:before {
+  content: "\f1a9";
+}
+.qia-file-code-o:before {
+  content: "\f1c9";
+}
+.qia-git-square:before {
+  content: "\f1d2";
+}
+.qia-facebook-official:before {
+  content: "\f230";
 }
 .qia-file-pdf-o:before {
   content: "\e95d";
