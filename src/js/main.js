@@ -60,12 +60,12 @@
                 }
             },
             {
-                id: "canvas-220x220",
+                id: "canvas-440x440",
                 ctx: null,
                 size: {
-                    width: 220,
-                    height: 220,
-                    padding: 20
+                    width: 440,
+                    height: 440,
+                    padding: 40
                 },
                 viewSize: {
                     width: 220,
@@ -73,10 +73,10 @@
                 },
                 withSub: 0.9,
                 title: {
-                    size: 18
+                    size: 36
                 },
                 subTitle: {
-                    size: 12
+                    size: 24
                 },
                 subIcon: {
                     power: 0.5
@@ -399,8 +399,6 @@
                 if (canvases[i].type && canvases[i].type == "icon") {
                     var fontSize = Math.round(workAreaHeight * 0.8 * 0.5) * 2 - 1;
                     var fontPos = calcFontXY(fontSize, canvases[i].size.width / 2, canvases[i].size.height / 2);
-
-
 
                     ctx.font = fontSize + "px '" + iconFont + "'";
                     ctx.fillText(mainIcon, fontPos.x * 0.90, fontPos.y);
