@@ -21,6 +21,7 @@ var icons = [
 	{label:"?", value:"&#xe958;", color:""},
 	{label:"鉛筆", value:"&#xf040;", color:""},
 	{label:"鉛筆（四角）", value:"&#xf14b;", color:""},
+	{label:"時計", value:"&#xe965;", color:""},
 	{label:"編集", value:"&#xf044;", color:""},
 	{label:"ノート", value:"&#xe962;", color:""},
 	{label:"本", value:"&#xf02d;", color:""},
