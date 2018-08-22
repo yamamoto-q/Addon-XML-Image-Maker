@@ -27,11 +27,14 @@ var icons = [
 	{label:"本", value:"&#xf02d;", color:""},
 	{label:"角帽", value:"&#xf19d", color:""},
 	{label:"ニュース", value:"&#xe959;", color:""},
+	{label:"ツール", value:"&#xe968;", color:""},
+	{label:"ロボット", value:"&#xe969;", color:""},
 	{label:"backlog", value:"&#xe939;", color:"66,206,159"},
 	{label:"box", value:"&#xe91a;", color:"0,97,213"},
 	{label:"ChatWork", value:"&#xe944;", color:"249,66,58"},
 	{label:"Dropbox", value:"&#xe91d;", color:"0,126,229"},
 	//{label:"Drupal", value:"&#xf1a9;", color:"40,169,224"},
+	{label:"Azure Active Directory", value:"&#xe96b;", color:"0,190,242"},
 	{label:"Google Analytics", value:"&#xe929;", color:"245,125,1"},
 	{label:"Google Calender", value:"&#xe934;", color:"68,132,240"},
 	{label:"Google Cloud Print", value:"&#xe923;", color:"87,127,192"},
@@ -40,6 +43,7 @@ var icons = [
 	{label:"Google Sheets", value:"&#xe912;", color:"16,157,68"},
 	{label:"Kintone", value:"&#xe914;", color:"252,184,0"},
 	{label:"Line", value:"&#xe933;", color:"0,195,0"},
+	{label:"Microsoft Teams", value:"&#xe96a;", color:"85,88,175"},
 	{label:"NHK 番組表API", value:"&#xe936;", color:"28,98,158"},
 	{label:"salesforce", value:"&#xe917;", color:"16,154,215"},
 	{label:"PayPal", value:"&#xe960;", color:"0,112,186"},
@@ -65,8 +69,5 @@ var icons = [
 	{label:"おねえさん", value:"&#xe94b;", color:"0,153,0"},
 	{label:"クエス君 #1 右手Up", value:"&#xe94f;", color:"0,153,0"},
 	{label:"クエス君 #8 ウィンク", value:"&#xe957;", color:"0,153,0"},
-	{label:"クエス君 #11 泣き(障害アイキャッチ)", value:"&#xe955;", color:"244,67,54"},
-
-
-
+	{label:"クエス君 #11 泣き(障害アイキャッチ)", value:"&#xe955;", color:"244,67,54"}
 ];
