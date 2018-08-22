@@ -40,6 +40,7 @@ var icons = [
 	{label:"Google Cloud Print", value:"&#xe923;", color:"87,127,192"},
 	{label:"Google Drive", value:"&#xe92a;", color:"72,136,247"},
 	{label:"Google Groups", value:"&#xe935;", color:"65,105,255"},
+	{label:"Google Hangouts Chat", value:"&#xe96c;", color:"0,137,123"},
 	{label:"Google Sheets", value:"&#xe912;", color:"16,157,68"},
 	{label:"Kintone", value:"&#xe914;", color:"252,184,0"},
 	{label:"Line", value:"&#xe933;", color:"0,195,0"},
