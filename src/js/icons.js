@@ -52,7 +52,7 @@ var icons = [
 	{label:"Questetra", value:"&#xe961;", color:"0,153,0"},
 	{label:"Slack", value:"&#xe946;", color:"120,212,182"},
 	{label:"Stripe", value:"&#xe92c;", color:"62,138,198"},
-	{label:"typetalk", value:"&#xe938;", color:"252,99,71"},
+	{label:"typetalk", value:"&#xe96e;", color:"252,99,71"},
 	{label:"Twilio", value:"&#xe94e;", color:"242,47,70"},
 	{label:"zendesk", value:"&#xe943;", color:"2,54,61"},
 	{label:"法人番号 API", value:"&#xe919;", color:"219,5,32"},
