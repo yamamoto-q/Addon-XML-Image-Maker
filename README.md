@@ -1,5 +1,6 @@
-# Questetra Addon XML 関連の画像を生成する
+# リポジトリを移動しました
 
-今すぐ使う > [Addon-XML Image Maker : rawgit](https://yamamoto-q.github.io/Addon-XML-Image-Maker/dist/index.html)
+以降、このリポジトリはメンテナンスされません
 
-- [アイコンについて](about_icon_font.md)
+- [Icon Maker](https://github.com/Questetra/Icon-Maker)
+- [ソース](https://github.com/Questetra/Icon-Maker)
